@@ -5,34 +5,34 @@ connection();
 const { Schema } = mongoose;
 
 const sellSchema = new Schema({
-    vl_cl_id: {
+    ve_cl_id: {
         type: String
     },
-    vl_pe_id: {
+    ve_pe_id: {
         type: String
     },
-    vl_cliente: {
+    ve_cliente: {
         type: String,
     },
-    vl_fatura: {
+    ve_fatura: {
         type: String,
     },
-    vl_cep: {
+    ve_cep: {
         type: String,
     },
-    vl_logradouro: {
+    ve_logradouro: {
         type: String,
     },
-    vl_bairro: {
+    ve_bairro: {
         type: String,
     },
-    vl_numero: {
+    ve_numero: {
         type: String,
     },
-    vl_complemento: {
+    ve_complemento: {
         type: String,
     },
-    vl_situacao: {
+    ve_situacao: {
         type: Number,
     },
 })
